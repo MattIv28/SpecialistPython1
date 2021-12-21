@@ -31,3 +31,12 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+#price = float(input("Введите стоимость одной единицы товара: "))
+price = int(input("Введите стоимость одной единицы товара: "))
+number_of_positions = 20
+i = 1
+while i <= number_of_positions:
+    new_price = price * i
+    i += 1
+    print(new_price)
