@@ -14,3 +14,11 @@
 #    #
 #    #
 ######
+
+side_square = int(input("Введите сторону квардрата : "))
+print('#' * side_square)
+i = 1
+while i <= side_square - 2:
+    print('#' + ' ' * (side_square - 2) + '#')
+    i += 1
+print('#' * side_square)
